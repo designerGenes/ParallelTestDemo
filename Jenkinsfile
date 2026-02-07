@@ -187,7 +187,6 @@ pipeline {
                                     -xctestrun '${capturedXctestrun}' \\
                                     -destination 'platform=iOS Simulator,id=${udid}' \\
                                     -resultBundlePath '${resultBundle}' \\
-                                    -parallel-testing-enabled NO \\
                                     ${onlyTestingFlags} \\
                                     2>&1 | \${XCBEAUTIFY} \\
                                         --report junit \\

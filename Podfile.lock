@@ -1,0 +1,23 @@
+PODS:
+  - GreetingKit (0.1.0)
+  - SwiftyJSON (5.0.2)
+
+DEPENDENCIES:
+  - GreetingKit (from `./LocalPods/GreetingKit`)
+  - SwiftyJSON (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  GreetingKit:
+    :path: "./LocalPods/GreetingKit"
+
+SPEC CHECKSUMS:
+  GreetingKit: cb54649dbaf5d69a5abe5319b23881c43704530c
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+
+PODFILE CHECKSUM: 43f0bb34c041f6169e818d15d2b52597a31642fd
+
+COCOAPODS: 1.16.2
